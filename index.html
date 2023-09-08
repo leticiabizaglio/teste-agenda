@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Agenda</title>
+</head>
+<body>
+    <h1>Agenda Telefônica 📞</h1>
+    <div id="container">
+
+         <div id="input-container">
+            <input type="text" id="nome" name="nome" placeholder="Nome Completo" required>
+
+            <input type="number" id="telefone" name="telefone" placeholder="Telefone Fixo" required>
+
+            <input type="number" id="celular" name="celular" placeholder="Telefone Celular" required>
+
+            <input type="text" id="img" name="img" placeholder="URL da Foto" required>
+            
+            <input type="date" id="data" name="data" required>
+
+            <input type="text" id="email" name="email" placeholder="Email" required>
+
+            <input type="number" id="cep" name="cep" placeholder="CEP" required>
+
+            <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+
+            <input type="text" id="instagram" name="instagram" placeholder="@Instagram" required>
+
+            <input type="text" id="github" name="github" placeholder="@Github" required>
+
+            <div id="msg"></div>
+        
+            <button id="people" class="button" onclick="adicionar()">Adicionar Contato</button>
+         </div>
+    </div>
+<div id="containerLista" ></div>
+<div id="lateral" class="hidden"></div>
+</body>
+</html>
